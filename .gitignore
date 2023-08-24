@@ -8,3 +8,6 @@ virtualenv/
 
 # Pycharm
 .idea/
+
+# Jupyter notebook
+**/*.ipynb_checkpoints/
