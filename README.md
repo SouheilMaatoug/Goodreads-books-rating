@@ -15,7 +15,7 @@ This work is part of an ML course
      - Yulu Wang
      - Laurence James
      
-   **Date of last update**: 27/09/2023
+   **Date of last update**: 27/07/2023
 
 
 
