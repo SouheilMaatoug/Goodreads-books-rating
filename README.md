@@ -1,5 +1,25 @@
 ## Books's rating prediction
 
+### Organization and structure
+Our team firstly met online to define our different tasks and organization. It was deemed convenient to use GITHub for 
+our project repository and work management tool, leaving the Master branch clean, each one creating an individual branch 
+from it to work on the assigned tasks and a DEV branch to merge the updates for review before moving them to Master by 
+the end of the project. The task assignment was structured as follows:
+
+- **Souheil**: GitHub administration, data analysis, feature engineering, data cleaning for base dataset to be used by the team, 
+partnering with Hugues on specific feature engineering and data cleaning for a logistic regression model and overall review
+- **Hugues**: overall review, data analysis, partnering with Suheil on specific feature engineering and data cleaning for a logistic regression model, exploration on implementing an experimental smote
+- **Yulu**: data analysis, specific feature engineering and data cleaning for a linear regression model 
+- **Richard**: data analysis, specific feature engineering and data cleaning for a decission tree model 
+- **Laurence**: data analysis, general feature engineering and overall review
+
+We used teams to share our different advancements and request support from other team members. On top of it we scheduled 
+4 online meetings to review project advancement and planify the additional steps to follow.
+
+Our main challenges were mainly related to the type of the data we had access to and how they could be used to have a good 
+result in our models, and figure out how to work as a team, although we weren’t in the same campus and never met physically.
+
+
 ### Description
 A machine learning project aiming to present an end-to-end pipeline for predicting books' ratings.
 
@@ -15,7 +35,7 @@ This work is part of an ML course
      - Yulu Wang
      - Laurence James
      
-   **Date of last update**: 27/09/2023
+   **Date of last update**: 27/08/2023
 
 
 
@@ -25,22 +45,22 @@ and hold basic information about books as well as real user experience informati
 ### Contents
 The repository is structured as follows:
 - `data`: contains raw and modified data
-- books.csv (raw data)
-- books_clean.csv (data with minor modifications by hand)
-- clean_books_automated.csv (data with minor modifications by an automated program)
-- books_analysis_output.csv (data after pre-processing from the first notebook)
+  - books.csv (raw data)
+  - books_clean.csv (data with minor modifications by hand)
+  - clean_books_automated.csv (data with minor modifications by an automated program)
+  - books_analysis_output.csv (data after pre-processing from the first notebook)
 
 - `scripts`: contains python scripts used in the pipeline (preprocessing), the README report and requirements
-- gitignore.txt
-- README.md
-- requirements.txt
-- normalize-data.py
+  - gitignore.txt
+  - README.md
+  - requirements.txt
+  - normalize-data.py
 
 - `notebooks`: contains a collection of different notebooks about exploring the data, building a model and evaluating it. 1 preprocessing notebook and 3 ML notebooks
-- dataset-exploration.ipynb (preprocessing notebook)
-- linear_regression.ipynb 
-- classification_decision_tree.ipynb
-- classification_logistic_regression.ipynb
+  - dataset-exploration.ipynb (preprocessing notebook)
+  - linear_regression.ipynb 
+  - classification_decision_tree.ipynb
+  - classification_logistic_regression.ipynb
 
 ## A brief overview:
 
